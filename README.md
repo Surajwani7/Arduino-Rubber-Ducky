@@ -1,20 +1,18 @@
 
 # Arduino Rubber Ducky
 
-**This repository contains rubber ducky payloads for Arduino-Uno. **
+This repository contains rubber ducky payloads for Arduino-Uno. 
 
 ## Files
 
----
 
-1.  ***DNS Poisoning***
+This repository contains malicious payload scripts for Arduino-Uno that can be used to perform various cyber attacks on Windows machines. It's written entirely in C++.
 
-    ​	contains an arduino payload to change hosts file in windows
+Key payloads include:
 
-2.  ***Reverse Connection***
+1) DNS Poisoning — modifies the hosts file on Windows
+2) Reverse Connection — creates a reverse shell connection to Meterpreter (a Metasploit exploitation framework component)
+   
+The repository is essentially a collection of "rubber ducky" attack scripts — so named after the USB Rubber Ducky device that mimics keyboard input to automate attacks. In this case, Arduino boards are reprogrammed to execute similar malicious keyboard injection attacks.
 
-    ​    contains an arduino payload to hack a windows machine and create a reverse connection in meterpreter.
-
-    and many more.
-
-***[ N.B: use these files carefully and rng70 does not take any responsibility for your actions if you gonna use it ]***
+⚠️ Note: The disclaimer in the README states the author takes no responsibility for misuse of these payloads.
