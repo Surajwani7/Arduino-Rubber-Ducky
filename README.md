@@ -1,4 +1,3 @@
-# Arduino-Rubber-Ducky
 
 # Arduino Rubber Ducky
 
